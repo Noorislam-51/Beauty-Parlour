@@ -15,15 +15,17 @@
       <div class="logo">
         <a href="#">Beauty</a>
       </div>
+      <div class="nav-icon" onclick="toggleNav()">
+        <i class="fa fa-bars"></i> <!-- Burger icon -->
+      </div>
       <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Aboutq</a>
-        <a href="#">Services</a>
-        <a href="#">Pages</a>
-        <a href="#">Phone</a>
+        <a href="#1stPage">Home</a>
+        <a href="#2ndPage">About</a>
+        <a href="#3rdPage">Services</a>
+        <a href="#4thPage">Staff</a>
       </div>
     </nav>
-    <section class="home">
+    <section class="home" id="1stPage">
       <div class="text-section">
         <p class="big-text"><span>THE BEAUTY CENTER </span><br>
           Suitable For All  <br>
@@ -35,7 +37,7 @@
       </div>
     </section>
   </section>
-  <section class="aboutsection">
+  <section class="aboutsection" id="2ndPage">
     <div class="aboutus">
       <div class="left-about">
         <h1>ABOUT US </h1>
@@ -51,7 +53,7 @@
     </div>
   </section>
 
-  <section class="servicesection">
+  <section class="servicesection" id="3rdPage">
     <div class="servicehead">
       <h2>OUR SERVICES</h2>
       <P>Beauty Rituals Of Our Offer</P>
@@ -63,7 +65,7 @@
         <p>Indulge in our facial treatments for radiant, youthful skin. Rejuvenate, hydrate, and glow at our beauty
           parlour.</p>
       </div>
-      <div class="box center-box">
+      <div class="box">
         <img src="./image/skin tightening.jpg" alt="Image 2">
         <h1>Skin Tightening</h1>
         <p>Achieve firmer, youthful skin with our expert skin tightening treatments. Experience visible results and
@@ -104,7 +106,7 @@
       </div>
 
   </section>
-  <section class="doctorsection">
+  <section class="doctorsection" id="4thPage">
     <div class="doctorhead">
       <h2>MEET THE DOCTORS</h2>
       <P>Discover Our Experts</P>
@@ -159,7 +161,13 @@
 
   </section>
 
-
+<script>
+  // Function to toggle the navigation links visibility
+function toggleNav() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('active'); // Toggle the 'active' class to show/hide links
+}
+</script>
 
 </body>
 
