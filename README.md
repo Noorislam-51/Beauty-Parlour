@@ -5,5 +5,5 @@
 3. Conversion: HTML code was written based on the Figma design, making it possible to display the design on the web.<br>
 
 
-![preview (2)](https://github.com/user-attachments/assets/3d4743d4-4b59-44e1-a0a8-372be9b6f6dc)
+![screencapture-127-0-0-1-5500-index-html-2025-02-01-11_46_12](https://github.com/user-attachments/assets/43cb93eb-1239-45ac-995b-4988f3216bf5)
 
