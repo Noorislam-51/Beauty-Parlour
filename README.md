@@ -1,5 +1,9 @@
 # Beauty-Parlour
-I have figma to html conversion on this project design is very good &amp; it was pleasure to work on it but it is not
-responsive.
+<b>Summary of the Project:</b><br>
+1. Project: Beauty-Parlour (likely a website for a beauty salon or spa)<br>
+2. Design: Based on a Figma design, which is visually appealing and well-structured.<br>
+3. Conversion: HTML code was written based on the Figma design, making it possible to display the design on the web.<br>
 
-![Beauty Parlour ](https://github.com/Noorislam-51/Beauty-Parlour/assets/172569034/c27fe5b4-3504-4fb6-96c8-95084ebfeec8)
+
+![preview (2)](https://github.com/user-attachments/assets/3d4743d4-4b59-44e1-a0a8-372be9b6f6dc)
+
